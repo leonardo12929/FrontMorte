@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./app.css";
 import mandos from "./assets/cabra.jpg";
 
 function App() {
