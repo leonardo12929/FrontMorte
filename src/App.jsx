@@ -16,7 +16,7 @@ function App() {
     const ano = formData.get("ano");
     const email = formData.get("email");
     
-    await fetch("http://localhost:8080/morte", {
+    await fetch("https://jogodamorteservidor-production.up.railway.app/morte", {
       method: "POST",
       headers: {
          "Content-Type": "application/json",
